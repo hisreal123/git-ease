@@ -43,7 +43,6 @@ def git_initializer():
         check_untracked_files()
 
         subprocess.run(['git', 'commit', '-m', 'Initial commit'])
-        # subprocess.run(['git', 'commit', '-m', first_commit_message])
 
         branch_name = input('Enter the initial branch name (e.g., main, master): ')
         subprocess.run(['git', 'branch', '-M', branch_name])
