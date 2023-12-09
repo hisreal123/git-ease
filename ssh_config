@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# check if existing SSH keys
+
+fi [ -f ~/.ssh/id_rsa ]; then
+    echo "SSH Key already exists"
